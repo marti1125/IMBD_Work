@@ -250,13 +250,13 @@ fecha_real_usuario,cantidad_libros,observacion) VALUES
 ('2014-03-04','2014-03-04',0,0,'2014-03-04',1,'El libro se encuentra dentro de la fecha establecida de devolución'),
 ('2014-01-05','2014-01-05',0,0,'2014-01-05',1,'El libro se encuentra dentro de la fecha establecida de devolución');
 
-INSERT INTO PrestamoLibro (idTipReq,idLibro,idCarnet)VALUES 
-(1,1,100001),
-(1,2,100002),
-(1,3,100003),
-(1,4,100004),
-(1,5,100005),
-(1,6,100006),
-(1,7,100007),
-(1,8,100008),
-(1,9,100009);
+INSERT INTO PrestamoLibro (idPrestamo,idTipReq,idLibro,idCarnet)VALUES
+(1,1,1,100001),
+(2,1,2,100002),
+(1,1,3,100003),
+(3,1,4,100004),
+(5,1,5,100005),
+(6,1,6,100006),
+(7,1,7,100007),
+(5,1,8,100008),
+(2,1,9,100009);
